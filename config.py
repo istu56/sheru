@@ -24,8 +24,9 @@ ASSUSERNAME = getenv("ASSUSERNAME")
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 LOGGER_ID = int(getenv("LOGGER_ID", -1003565819974))
 
-BASE_URL = getenv("API_URL", 'https://BabyAPI.Pro') 
-API_KEY = getenv('API_KEY', 'ADMINBABYX20F56755E70E0694DDCC844F5F1BB465') 
+# Vars For API End Pont.
+YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
+YT_API_KEY = getenv("YT_API_KEY" , 'xbit_zVATHL2zaR9xkUdxIuhx_UeJodl5zkz4') ## Your API key like: xbit_10000000xx0233 Get from  https://t.me/tgmusic_apibot
 # ======================================================
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "9999999"))
